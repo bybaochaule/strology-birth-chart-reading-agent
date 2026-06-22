@@ -1,1 +1,17 @@
+interface:
+  display_name: "Astrology Birth Chart Reading Agent"
+  short_description: "Creates reflective, privacy-aware astrology natal chart readings from chart data, screenshots, or birth details."
+  default_prompt: "Use the Astrology Birth Chart Reading Agent skill to create a symbolic natal chart reading with clear caveats, synthesis, and reflection prompts."
 
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - assets/birth-chart-intake-form.md
+    - assets/reading-template.md
+    - references/style-guide.md
+    - references/astrology-interpretation-framework.md
